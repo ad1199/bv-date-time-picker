@@ -1,11 +1,9 @@
-# bv-date-time-picker
-
 ## Vuetify Date Time Picker
 
 ### Screenshot
 
 <a href="https://assets.maharjanarun.com.np/images/bv-date-time-picker-preview.jpg" target="_blank">
-<img src="https://assets.maharjanarun.com.np/images/bv-date-time-picker-preview.jpg" alt="Vuetify Date Time Picker Preview" style="height: auto; max-width:300px;"/>
+<img src="https://assets.maharjanarun.com.np/images/bv-date-time-picker-preview.jpg" alt="Vuetify Date Time Picker Preview" style="height: auto; max-width:250px;"/>
 </a>
 
 ### Installation
