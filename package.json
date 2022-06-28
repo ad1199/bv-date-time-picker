@@ -50,5 +50,10 @@
     "vue",
     "vuetify component",
     "date time picker"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ad1199/bv-date-time-picker.git"
+  },
+  "homepage": "https://github.com/ad1199/bv-date-time-picker"
 }
