@@ -68,3 +68,9 @@ Vue.use(DateTimePicker);
 </tr>
 </tbody>
 </table>
+
+
+###Updates
+- Added tabs
+- Added timepicker Props
+- Added display date format

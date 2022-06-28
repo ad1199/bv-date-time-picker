@@ -1,12 +1,18 @@
 <template>
   <v-app>
-    <date-time-picker v-model="date"></date-time-picker>
+    <v-container>
+      <h4>Vuetify Date Time Picker Demo</h4>
+      <date-time-picker
+        v-model="date"
+        :text-field-props="textFieldProps"
+      ></date-time-picker>
+    </v-container>
   </v-app>
 </template>
 
 <script>
 import DateTimePicker from "./components/DateTimePicker.vue";
-import moment from "moment";
+// import moment from "moment";
 
 export default {
   name: "App",
@@ -15,7 +21,12 @@ export default {
   },
   data() {
     return {
-      date: moment().format("YYYY-MM-DD HH:mm:ss"),
+      date: null,
+      textFieldProps: {
+        prependInnerIcon: "mdi-calendar-month-outline",
+        placeholder: "Choose Date",
+      },
+      // date: moment().format("YYYY-MM-DD HH:mm:ss"),
     };
   },
 };
