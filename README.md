@@ -2,6 +2,12 @@
 
 ## Vuetify Date Time Picker
 
+### Screenshot
+
+<a href="https://assets.maharjanarun.com.np/images/bv-date-time-picker-preview.jpg" target="_blank">
+<img src="https://assets.maharjanarun.com.np/images/bv-date-time-picker-preview.jpg" alt="Vuetify Date Time Picker Preview" style="height: auto; max-width:300px;"/>
+</a>
+
 ### Installation
 
 ```
@@ -42,10 +48,22 @@ Vue.use(DateTimePicker);
 <td>Object of all the props of <code>v-text-field</code> component</td>
 </tr>
 <tr>
-<td>datepickerProps</td>
+<td>timepickerProps</td>
 <td>Object</td>
 <td>null</td>
-<td>Object of all the props of <code>v-date-picker</code> component</td>
+<td>Object of all the props of <code>v-time-picker</code> component</td>
+</tr>
+<tr>
+<td>textFieldProps</td>
+<td>Object</td>
+<td>null</td>
+<td>Object of all the props of <code>v-text-field</code> component</td>
+</tr>
+<tr>
+<td>displayDateFormat</td>
+<td>Object</td>
+<td>MMM DD, YYYY hh:mm a</td>
+<td>Date time format used in text field to display the date.</td>
 </tr>
 </tbody>
 </table>
